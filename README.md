@@ -67,23 +67,16 @@ La relevancia predictiva respecto de ote_average se analiza mediante **Informac
 
 La selección final reduce el espacio procesado de **62 a 7 features**:
 
-- 
-untime
-- 
-elease_year
-- 
-_production_companies
-- 
-_genres
-- 
-_spoken_languages
-- 
-_production_countries
+- untime
+- elease_year
+- _production_companies
+- _genres
+- _spoken_languages
+- _production_countries
 - log_budget
 
 
-elease_decade se descarta por su elevada redundancia con 
-elease_year.
+release_decade se descarta por su elevada redundancia con release_year.
 
 ## PCA
 

@@ -1,0 +1,18 @@
+# Dataset original
+data/*.csv
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+
+# Entornos
+.env
+.venv/
+venv/
+
+# Sistema
+.DS_Store
+Thumbs.db

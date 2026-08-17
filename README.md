@@ -63,7 +63,7 @@ Todas las transformaciones que requieren estimar parámetros a partir de los dat
 
 ## Selección de features
 
-La relevancia predictiva respecto de ote_average se analiza mediante **Información Mutua**.
+La relevancia predictiva respecto de vote_average se analiza mediante **Información Mutua**.
 
 La selección final reduce el espacio procesado de **62 a 7 features**:
 
@@ -94,7 +94,7 @@ Esto permite comparar dos enfoques:
 El análisis completo se encuentra en:
 
 
-otebooks/01_EDA_TMDB.ipynb
+notebooks/01_EDA_TMDB.ipynb
 
 ## Autores
 

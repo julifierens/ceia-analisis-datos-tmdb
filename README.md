@@ -4,7 +4,7 @@ Trabajo Final Integrador de la materia **Análisis de Datos** de la Carrera de E
 
 ## Objetivo
 
-El trabajo realiza un análisis exploratorio y la preparación del **Full TMDB Movies Dataset 2024** para plantear un problema supervisado de **regresión**, utilizando ote_average como variable objetivo.
+El trabajo realiza un análisis exploratorio y la preparación del **Full TMDB Movies Dataset 2024** para plantear un problema supervisado de **regresión**, utilizando Vote_average como variable objetivo.
 
 El análisis comprende:
 
@@ -67,8 +67,10 @@ La relevancia predictiva respecto de ote_average se analiza mediante **Informac
 
 La selección final reduce el espacio procesado de **62 a 7 features**:
 
-- untime
-- elease_year
+- 
+untime
+- 
+elease_year
 - 
 _production_companies
 - 
@@ -79,7 +81,9 @@ _spoken_languages
 _production_countries
 - log_budget
 
-elease_decade se descarta por su elevada redundancia con elease_year.
+
+elease_decade se descarta por su elevada redundancia con 
+elease_year.
 
 ## PCA
 
